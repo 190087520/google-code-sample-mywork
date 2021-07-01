@@ -43,3 +43,6 @@ class VideoLibrary:
             does not exist.
         """
         return self._videos.get(video_id, None)
+
+    def show_playing(self):
+        pass
